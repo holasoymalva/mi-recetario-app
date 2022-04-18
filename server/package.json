@@ -1,0 +1,26 @@
+{
+    "name": "mi-recetario-app-server",
+    "version": "1.0.0",
+    "description": "Mi recetario es una web app para saber que cocinar hoy, cuando no tienes ni idea de que cocinar",
+    "main": "index.js",
+    "scripts": {
+        "start-dev":"node app.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/malvabombom/mi-recetario-app.git"
+    },
+    "keywords": [
+        "javascript"
+    ],
+    "author": "malvabombom",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/malvabombom/mi-recetario-app/issues"
+    },
+    "homepage": "https://github.com/malvabombom/mi-recetario-app#readme",
+    "dependencies": {
+        "concurrently": "^7.1.0"
+    }
+}
